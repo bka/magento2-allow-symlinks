@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\View\Element\Template\File\Validator">
+        <plugin name="load-modules-outside-project-dir"
+                type="Bka\AllowSymlinks\Plugin\Magento\Framework\View\Element\Template\File\Validator"
+                sortOrder="1" />
+    </type>
+    <type name="Magento\Framework\Filesystem\Driver\File">
+        <plugin name="load-modules-outside-project-dir"
+                type="Bka\AllowSymlinks\Plugin\Magento\Framework\Filesystem\Driver\File"
+                sortOrder="1" />
+    </type>
+</config>

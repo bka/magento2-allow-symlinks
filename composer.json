@@ -1,0 +1,30 @@
+{
+    "name": "bka/magento2-allow-symlinks",
+    "description": "Developer module allows symlinks for extern modules and media files",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "100.0.*|100.1.*|100.2.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bka\\AllowSymlinks\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Magento\\Framework\\": "lib/internal/Magento/Framework/"
+        }
+    }
+ }
+
