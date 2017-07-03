@@ -1,6 +1,6 @@
 <?php
 
-namespace Bka\AllowSymlinks\Plugin\Magento\Framework\Filesystem\Drive;
+namespace Bka\AllowSymlinks\Plugin\Magento\Framework\Filesystem\Driver;
 
 /**
  * Class: File
